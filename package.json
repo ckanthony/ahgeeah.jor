@@ -1,0 +1,40 @@
+{
+  "name": "ahgeeah.jor",
+  "version": "0.0.0",
+  "private": true,
+  "author": "kevin@biliba.la",
+  "description": "SuperBot",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-hubot": "^0.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "dotenv": "^2.0.0",
+    "eslint": "^2.11.1",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.2.6",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.2.0",
+    "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-reload-scripts": "^0.1.2",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.0",
+    "hubot-slack": "^3.4.2",
+    "moment": "^2.13.0",
+    "moment-parseformat": "^2.1.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "./bin/hubot -a slack"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
